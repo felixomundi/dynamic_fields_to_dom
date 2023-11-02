@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <button class="btn btn-primary float-end">Add</button>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div id="show-item">
+                                <div class="row" >
+                                    <div class="col-md-4 mb-3">
+                                        <label for="name">name</label>
+                                        <input type="text" name="name[]" required id="name" class="form-control bg-light">
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label for="name">name</label>
+                                        <input type="text" name="name[]" required id="name" class="form-control bg-light">
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label for="name">name</label>
+                                        <input type="text" name="name[]" required id="name" class="form-control bg-light">
+                                    </div>
+                                    <div class="col-md-2 mb-3 d-grid">
+                                        <button type="button"  id="add-new-inputs" class="btn btn-sm" style="background-color: blue;" ><i class="fa fa-plus-circle"></i> Add</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/append.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
